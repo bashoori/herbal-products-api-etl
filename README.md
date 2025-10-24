@@ -38,13 +38,13 @@ Copy `.env.example` to `.env` and make sure it contains:
 API_URL=https://dummyjson.com/products
 DB_URL=sqlite:///data/herbal_products.db
 
-3️⃣ Install dependencies
+### 3️⃣ Install dependencies
 
 (automatically handled by Codespaces, or manually run:)
 
 pip install -r requirements.txt
 
-4️⃣ Run the ETL
+### 4️⃣ Run the ETL
 python src/main.py
 
 
@@ -54,7 +54,7 @@ Expected output:
 ✅ Extracted 30 products from DummyJSON API
 2025-10-24 ... INFO - Loaded 30 products into database.
 
-🔍 Verify the Load
+### 🔍 Verify the Load
 
 After running the ETL, you can inspect what’s in your database with:
 
@@ -69,7 +69,8 @@ Example output:
 1   2          Skin Beauty Kit   19.99           beauty
 ...
 
-🧠 Project Structure
+### 🧠 Project Structure
+```
 herbal-products-api-etl/
 │
 ├── src/
@@ -88,8 +89,9 @@ herbal-products-api-etl/
 ├── .gitignore
 └── .devcontainer/
     └── devcontainer.json
+```
 
-🧩 Future Enhancements
+### 🧩 Future Enhancements
 
 Add retry logic (tenacity) for API reliability
 
