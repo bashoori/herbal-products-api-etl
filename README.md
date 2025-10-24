@@ -37,12 +37,14 @@ Copy `.env.example` to `.env` and make sure it contains:
 ```bash
 API_URL=https://dummyjson.com/products
 DB_URL=sqlite:///data/herbal_products.db
+```
 
 ### 3️⃣ Install dependencies
 
 (automatically handled by Codespaces, or manually run:)
-
+```
 pip install -r requirements.txt
+```
 
 ### 4️⃣ Run the ETL
 python src/main.py
@@ -57,9 +59,9 @@ Expected output:
 ### 🔍 Verify the Load
 
 After running the ETL, you can inspect what’s in your database with:
-
+```
 python src/verify_load.py
-
+```
 
 Example output:
 
