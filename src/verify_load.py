@@ -9,6 +9,6 @@ def verify_load():
         print(df.head(5))
     except Exception as e:
         print(f"❌ Error reading from database: {e}")
+        
 
-if __name__ == "__main__":
-    verify_load()
+
