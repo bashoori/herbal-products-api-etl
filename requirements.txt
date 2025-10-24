@@ -1,0 +1,7 @@
+requests
+pandas
+sqlalchemy
+python-dotenv
+beautifulsoup4
+loguru
+playwright
